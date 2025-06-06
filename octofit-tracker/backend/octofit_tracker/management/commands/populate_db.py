@@ -36,6 +36,5 @@ class Command(BaseCommand):
         Workout.objects.create(user=user1, workout_type="cardio", details="5km run")
         Workout.objects.create(user=user2, workout_type="strength", details="push-ups and sit-ups")
         Workout.objects.create(user=user3, workout_type="cardio", details="cycling")
-
         self.stdout.write(self.style.SUCCESS('Test data populated successfully.'))
-        
+
