@@ -38,3 +38,4 @@ class Command(BaseCommand):
         Workout.objects.create(user=user3, workout_type="cardio", details="cycling")
 
         self.stdout.write(self.style.SUCCESS('Test data populated successfully.'))
+        
